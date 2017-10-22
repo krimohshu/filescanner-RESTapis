@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+<body>
+<form action="v1/api/scanfilesByMimetypes">
+
+
+	<table>
+		<tr>
+			<td><label for="directory">Specify Director Location</label></td>
+			<td><input type="text" name="directoryPath" id="directory" /></td>
+		</tr>
+		<tr>
+			<td>Include Subdirectories?</td>
+			<td><input type="radio" name="includeSubDirectories" value="yes"
+				id="yes"><label for="yes">Yes</label> <input type="radio"
+				name="includeSubDirectories" value="no" id="no"><label
+				for="no">No</label></td>
+		<tr>
+			<td>Specify MimeTypes:</td>
+			<td><input type="text" name="supportedFileTypes" /> </td>
+		</tr>
+		<tr>
+		<td align="center" colspan="2"><input type="submit" value="Submit"></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
