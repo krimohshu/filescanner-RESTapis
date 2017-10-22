@@ -1,8 +1,11 @@
-"# My project's README" 
+
 Objective and Tools
-1.	Demo to write a REST POST api to get files information in a set.
+PartA:
+1.	Demo of REST apis to get search file in directory or subdirectory ( user will decide depth). 
+2. Get files information from the configured MIME type
+3. JSP page to let user choose from front end too. 
+4. Swagger,AOP, custome exception , Java8 feature in demo.
 Used: Springboot, Hibernate, File-IO , InteliJ, Maven,Postman
-2.	Automate using cucumber 
 	
 
 PART-1
